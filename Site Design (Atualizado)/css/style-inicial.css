@@ -278,30 +278,3 @@ footer {
     bottom: 0;
  }
  /*bolha de canto */
-#bolha {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden; /* Evita rolagem */
-}
-
-/* Container de vídeo */
-.video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Manda o vídeo para trás de outros elementos */
-    object-fit: cover; /* Cobre toda a tela */
-}
-
-/* Conteúdo da página */
-.content {
-    position: relative;
-    z-index: 1;
-    color: white; /* Exemplo de estilo de texto */
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 20%;
-}
